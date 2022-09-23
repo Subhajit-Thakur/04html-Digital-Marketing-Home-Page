@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.navbar-container {
+    margin-top: 45px;
+}
+
+.navbar-container>div:nth-child(1) img {
+    float: left;
+    margin-right: 4%;
+    margin-left: 74px;
+    width: 100px;
+    margin-top: 13px;
+}
+
+.navbar-container ul {
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+.navbar-container li {
+    display: inline;
+    float: left;
+    margin: 18px 23px;
+    color: gray;
+}
+
+.navbar-container li:hover {
+    color: black;
+}
+
+.navbar-container li:active {
+    color: black;
+}
+
+.button-group {
+    float: right;
+    top: 0;
+    margin-right: 41px;
+    margin-top: -41px;
+    padding: 9px 18px;
+    color: darkblue;
+    background-color: darkblue;
+    border-width: 0;
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+.button-group button {
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: blue;
+    border: none;
+}
+
+
+.heading-text {
+    margin-top: 110px;
+    margin-left: 73px;
+    font-size: 65px;
+    width: 40%
+}
+
+.banner-container span {
+    color: darkblue;
+}
+
+.description {
+    margin-left: 82px;
+    font-size: 16px;
+    width: 21%;
+    margin-top: 27px;
+}
+
+.banner-container button {
+    margin-left: 83px;
+    margin-top: 55px;
+    padding: 14px 32px;
+    border-radius: 9px;
+    color: white;
+    border: none;
+    background-color: darkblue;
+}
+
+.banner-container>div:nth-child(2) img {
+    margin-left: 35%;
+    width: 65%;
+    margin-top: -34%;
+}
